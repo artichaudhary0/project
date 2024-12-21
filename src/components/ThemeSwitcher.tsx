@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Palette } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { themes } from '../utils/themes';

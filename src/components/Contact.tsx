@@ -1,5 +1,4 @@
-import React from 'react';
-import { Mail, Phone, MapPin, Linkedin } from 'lucide-react';
+import { Mail, MapPin, Linkedin } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 
 export default function Contact() {

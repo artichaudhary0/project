@@ -1,11 +1,8 @@
-import React from 'react';
 import { skills } from '../data/portfolio';
 import SkillCard from './skills/SkillCard';
 import SectionTitle from './common/SectionTitle';
-import { useTheme } from '../context/ThemeContext';
 
 export default function Skills() {
-  const { currentTheme } = useTheme();
   
   return (
     <section className={`py-20 text-white`}>

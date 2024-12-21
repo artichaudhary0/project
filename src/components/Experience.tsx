@@ -1,4 +1,3 @@
-import React from 'react';
 import { experiences } from '../data/portfolio';
 import { Briefcase } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';

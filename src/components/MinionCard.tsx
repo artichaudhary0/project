@@ -1,4 +1,3 @@
-import React from 'react';
 import { type Minion } from '../types/minion';
 
 interface MinionCardProps {

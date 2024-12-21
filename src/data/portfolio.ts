@@ -89,23 +89,33 @@ export const skills: Skill[] = [
 
 export const experiences: Experience[] = [
   {
-    company: 'Tech Innovators Ltd',
-    position: 'Senior Mobile Developer',
-    duration: '2022 - Present',
+    company: 'Red & White Multimedia Education Official ',
+    position: 'Android / Flutter Faculty',
+    duration: 'July-2023 - Present',
     description: [
-      'Led development of multiple Flutter applications with 100k+ downloads',
-      'Mentored junior developers and conducted code reviews',
-      'Implemented CI/CD pipelines for automated testing and deployment'
+      'Trained over +50 students in Flutter, Android, and associated technologies, fostering expertise in modern mobile app development.',
+      'Developed comprehensive curricula covering Dart, Kotlin, API Integration, and state management using Provider, Getx, and Bloc.',
+      'Guided students in building real-world projects with Firebase and Hive for robust backend integration and data persistence.'
     ]
   },
   {
-    company: 'Digital Solutions Inc',
-    position: 'Android Developer',
-    duration: '2020 - 2022',
+    company: 'iCreditSpace',
+    position: 'Flutter Developer',
+    duration: 'Feb 2023 - May 2023',
     description: [
-      'Developed and maintained multiple Android applications',
-      'Improved app performance by 40% through optimization',
-      'Collaborated with design team to implement material design guidelines'
+      'Implemented robust user authentication and security measures, including features like password recovery, profile upload, and document upload.',
+      'Integrated and managed multiple APIs simultaneously, enabling functionalities such as report downloads, document search, and data synchronization.',
+      'Developed applications using the MVVM architecture, leveraging Getx and Bloc for efficient state management and seamless user experience.'
+    ]
+  },
+  {
+    company: 'Across The Globe (ATG)',
+    position: 'Developer Intern',
+    duration: 'Sep 2022 - May 2023',
+    description: [
+      'Built mobile applications leveraging Firebase services, including real-time database, cloud storage, authentication, and push notifications via FCM.',
+      'Developed shopping apps with API integration for product information, search functionality, and cart management, enhancing user experience.',
+      'Collaborated with cross-functional teams to implement server-side tasks using Firebase Cloud Functions and update websites with new features.'
     ]
   }
 ];

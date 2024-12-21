@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { projects } from '../data/portfolio';
 import ProjectCard from './ProjectCard';
 import { useTheme } from '../context/ThemeContext';

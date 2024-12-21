@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowDown, Code, Terminal, Smartphone } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 
