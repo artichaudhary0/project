@@ -35,12 +35,16 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                 <ExternalLink className="h-5 w-5" />
               </a>
             )}
-            <a 
-              href="#" 
-              className="text-slate-300 hover:text-white transition-colors duration-300"
-            >
-              <Github className="h-5 w-5" />
-            </a>
+            {project.githubUrl && (
+              <a 
+                href={project.githubUrl} 
+                className="text-slate-300 hover:text-white transition-colors duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="h-5 w-5" />
+              </a>
+            )}
           </div>
         </div>
         <p className="text-slate-300 mb-4">{project.description}</p>

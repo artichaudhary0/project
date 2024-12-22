@@ -5,6 +5,7 @@ export interface Project {
   technologies: string[];
   imageUrl: string;
   projectUrl?: string;
+  githubUrl?: string;
   category: 'android' | 'flutter' | 'web';
 }
 

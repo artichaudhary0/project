@@ -1,78 +1,64 @@
 import { Project, Skill, Experience } from '../types/portfolio';
 
 export const projects: Project[] = [
+
   {
     id: '1',
-    title: 'E-Commerce Mobile App',
-    description: 'A full-featured e-commerce application built with Flutter, featuring real-time updates, payment integration, and a clean UI.',
-    technologies: ['Flutter', 'Firebase', 'Stripe'],
-    imageUrl: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&h=500&fit=crop',
-    category: 'flutter'
+    title: 'Maidify: Your Premier Maid Booking Solution',
+    description: 'Welcome to Maidify! Your go-to platform for seamless maid booking services, designed to simplify your life and ensure a clean, comfortable living space. Discover trusted maids, schedule appointments, and manage your cleaning needs effortlessly with our intuitive mobile app.',
+    technologies: ['Flutter', 'Dart', 'Firebase', 'Provider','Figma'],
+    imageUrl: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=500&fit=crop',
+    category: 'flutter',
+    githubUrl: 'https://github.com/artichaudhary0/wear_work'
   },
+
   {
     id: '2',
-    title: 'Fitness Tracking App',
-    description: 'Android native app for tracking workouts, nutrition, and progress with material design principles.',
-    technologies: ['Kotlin', 'Room DB', 'WorkManager'],
-    imageUrl: 'https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=800&h=500&fit=crop',
-    category: 'android'
+    title: 'Project Pathway : Basic to Advanced JavaScript Projects',
+    description: 'A collection of 35 JavaScript projects ranging from basic to advanced levels. This project collection is perfect for beginners and intermediate developers looking to deepen their JavaScript skills. Each project covers key JavaScript concepts, from DOM manipulation and event handling to working with APIs and asynchronous programming.',
+    technologies: ['Html', 'Css', 'Javascript'],
+    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop',
+    category: 'web',
+    githubUrl: 'https://github.com/artichaudhary0/Project-Pathway-Js'
   },
+  
   {
     id: '3',
-    title: 'Portfolio Website',
-    description: 'Modern portfolio website built with React and TailwindCSS, featuring responsive design and smooth animations.',
-    technologies: ['React', 'TypeScript', 'Tailwind'],
-    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop',
-    category: 'web'
+    title: 'Digital Card Application',
+    description: 'The Digital Card Application is a versatile mobile tool designed to streamline personal and professional networking. With a user-friendly interface, it allows individuals to create and share digital business cards containing essential contact details, professional information, and personal branding elements. Users can customize their profiles, including adding profile pictures and brief descriptions.',
+    technologies: ['Java', 'Glide', 'Piccaso'],
+    imageUrl: 'https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=800&h=500&fit=crop',
+    category: 'android',
+    githubUrl: 'https://github.com/artichaudhary0/DigitalCardApplication'
   },
+ 
   {
     id: '4',
-    title: 'Task Management Dashboard',
-    description: 'A comprehensive web application for team task management with real-time updates and analytics.',
-    technologies: ['React', 'Redux', 'Firebase', 'Chart.js'],
+    title: 'JavaScript : Comprehensive Learning and Practical Implementation',
+    description: 'Created a comprehensive repository demonstrating in-depth understanding of JavaScript concepts and practices. Showcased practical implementations learned throughout the module.',
+    technologies: ['Html', 'Css', 'Javascript'],
     imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop',
-    category: 'web'
+    category: 'web',
+    githubUrl: 'https://github.com/artichaudhary0/Js-Code'
   },
   {
     id: '5',
-    title: 'Food Delivery App',
-    description: 'Flutter-based food delivery application with real-time order tracking and payment integration.',
-    technologies: ['Flutter', 'GetX', 'Google Maps', 'Firebase'],
+    title: 'Crypto Currencies Tracking',
+    description: 'Developed a Crypto-Currencies Tracking App for real-time monitoring of cryptocurrency prices and market trends. The app integrates APIs to fetch live price updates, historical data, and provides advanced filtering options for users. Focused on delivering an intuitive UI/UX to ensure a seamless experience and efficient data visualization.',
+    technologies: ['Flutter', 'Povider', 'Shared Preferences'],
     imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&h=500&fit=crop',
-    category: 'flutter'
+    category: 'flutter',
+    githubUrl: 'https://github.com/artichaudhary0/Crypto-Currency-Tracking-App'
   },
   {
     id: '6',
-    title: 'Smart Home Control',
-    description: 'IoT-enabled Android app for controlling smart home devices with voice commands and automation.',
-    technologies: ['Kotlin', 'MQTT', 'Room DB', 'ML Kit'],
+    title: 'Master Calculator App',
+    description: 'The Master Calculator Android App is a versatile and user-friendly mobile application designed to provide a comprehensive set of essential calculators and tools to assist users with various financial, educational, and mathematical calculations.',
+    technologies: ['Kotlin', 'Java', 'State Management'],
     imageUrl: 'https://images.unsplash.com/photo-1558002038-1055907df827?w=800&h=500&fit=crop',
-    category: 'android'
+    category: 'android',
+    githubUrl: 'https://github.com/artichaudhary0/MasterCalculatorAndroid'
   },
-  {
-    id: '7',
-    title: 'Travel Companion App',
-    description: 'Flutter app for travelers with offline maps, trip planning, and local recommendations.',
-    technologies: ['Flutter', 'MapBox', 'Hive', 'Provider'],
-    imageUrl: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=500&fit=crop',
-    category: 'flutter'
-  },
-  {
-    id: '8',
-    title: 'Social Media Dashboard',
-    description: 'Modern web dashboard for managing multiple social media accounts with analytics.',
-    technologies: ['React', 'Next.js', 'TailwindCSS', 'Social APIs'],
-    imageUrl: 'https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=800&h=500&fit=crop',
-    category: 'web'
-  },
-  {
-    id: '9',
-    title: 'Health Monitoring App',
-    description: 'Android application for monitoring health metrics with wearable device integration.',
-    technologies: ['Kotlin', 'HealthKit', 'Bluetooth LE', 'MPAndroidChart'],
-    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop',
-    category: 'android'
-  }
 ];
 
 export const skills: Skill[] = [
