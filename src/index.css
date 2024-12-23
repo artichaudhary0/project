@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 /* Enhanced Animations */
 @keyframes float-1 {
   0%, 100% { transform: translateY(0) rotate(0deg); }
