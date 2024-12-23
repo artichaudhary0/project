@@ -4,6 +4,22 @@ import { useTheme } from '../context/ThemeContext';
 export default function Contact() {
   const { currentTheme } = useTheme();
 
+  const handleTileClick = (type: string) => {
+    switch (type) {
+      case 'Email':
+        window.location.href = 'mailto:chaudhary.aarti1998@gmail.com'; 
+        break;
+      case 'Linkedin':
+        window.open('https://www.linkedin.com/in/artichaudhary0', '_blank'); 
+        break;
+      case 'Location':
+        window.open('https://www.google.com/maps?q=Surat+Gujarat,+India', '_blank'); 
+        break;
+      default:
+        break;
+    }
+  };
+
   return (
     <section className={`py-20 bg-${currentTheme.colors.background}`} id="contact">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -14,7 +30,11 @@ export default function Contact() {
             { Icon: Linkedin, title: 'Linkedin', content: 'artichaudhary0' },
             { Icon: MapPin, title: 'Location', content: 'Surat Gujarat, India' }
           ].map(({ Icon, title, content }) => (
-            <div key={title} className="bg-white/90 backdrop-blur-lg rounded-2xl p-8 text-center hover:shadow-xl transition-all duration-300 group hover:scale-105">
+            <div 
+              key={title} 
+              className="bg-white/90 backdrop-blur-lg rounded-2xl p-8 text-center hover:shadow-xl transition-all duration-300 group hover:scale-105"
+              onClick={() => handleTileClick(title)} // Add onClick event to each tile
+            >
               <div className={`inline-flex p-4 rounded-xl bg-gradient-to-r ${currentTheme.colors.primary} mb-6 group-hover:scale-110 transition-all duration-300`}>
                 <Icon className="h-8 w-8 text-white" />
               </div>
