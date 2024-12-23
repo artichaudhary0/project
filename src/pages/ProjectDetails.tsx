@@ -1,4 +1,3 @@
-
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Github, ExternalLink } from 'lucide-react';
 import { projects } from '../data/portfolio';
@@ -11,9 +10,9 @@ export default function ProjectDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
   const { currentTheme } = useTheme();
-  
+
   const project = projects.find(p => p.id === id);
-  
+
   if (!project) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -34,7 +33,7 @@ export default function ProjectDetails() {
   return (
     <div className={`min-h-screen bg-${currentTheme.colors.background}`}>
       <ProjectNavBar />
-      
+
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-slate-800/30 rounded-2xl overflow-hidden backdrop-blur-lg border border-slate-700/50">
           {/* Left Section - Project Overview */}
@@ -60,19 +59,27 @@ export default function ProjectDetails() {
                       <ExternalLink size={24} />
                     </a>
                   )}
-                  <a
-                    href="#"
-                    className={`text-${currentTheme.colors.text} hover:text-${currentTheme.colors.accent} transition-colors duration-300`}
-                  >
-                    <Github size={24} />
-                  </a>
+                  {project.githubUrl ? (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`text-${currentTheme.colors.text} hover:text-${currentTheme.colors.accent} transition-colors duration-300`}
+                    >
+                      <Github size={24} />
+                    </a>
+                  ) : (
+                    <span className="text-slate-400">No GitHub link available</span>
+                  )}
+
+
                 </div>
               </div>
-              
+
               <p className={`text-${currentTheme.colors.text} opacity-90 text-lg`}>
                 {project.description}
               </p>
-              
+
               <div>
                 <h2 className={`text-2xl font-semibold mb-4 text-${currentTheme.colors.text}`}>
                   Technologies Used

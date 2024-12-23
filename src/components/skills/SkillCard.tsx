@@ -32,7 +32,12 @@ export default function SkillCard({ skill }: SkillCardProps) {
       observer.observe(progressRef.current);
     }
 
-    return () => observer.disconnect();
+    return () => {
+      if (progressRef.current) {
+        observer.unobserve(progressRef.current);
+      }
+      observer.disconnect();
+    };
   }, []);
 
   return (

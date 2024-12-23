@@ -1,11 +1,13 @@
 import { skills } from '../data/portfolio';
 import SkillCard from './skills/SkillCard';
 import SectionTitle from './common/SectionTitle';
+import { useTheme } from '../context/ThemeContext';
 
 export default function Skills() {
+  const { currentTheme } = useTheme();
   
   return (
-    <section className={`py-20 text-white`}>
+    <section className={`py-20 text-${currentTheme.colors.text} bg-${currentTheme.colors.background}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="Skills"

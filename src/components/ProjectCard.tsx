@@ -41,7 +41,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               </a>
             )}
             <a 
-              href="#" 
+              href={project.githubUrl} 
               className="text-slate-300 hover:text-white transition-colors duration-300"
             >
               <Github className="h-5 w-5" />

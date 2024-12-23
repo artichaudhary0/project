@@ -6,11 +6,11 @@ export const projects: Project[] = [
     id: '1',
     title: 'Maidify: Your Premier Maid Booking Solution',
     description: 'Welcome to Maidify! Your go-to platform for seamless maid booking services, designed to simplify your life and ensure a clean, comfortable living space. Discover trusted maids, schedule appointments, and manage your cleaning needs effortlessly with our intuitive mobile app.',
-    technologies: ['Flutter', 'Dart', 'Firebase', 'Provider','Figma'],
+    technologies: ['Flutter', 'Dart', 'Firebase', 'Provider', 'Figma'],
     imageUrl: 'https://images.unsplash.com/photo-1546552696-7d5f4e89b0e8?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     category: 'flutter',
     githubUrl: 'https://github.com/artichaudhary0/wear_work',
-    features : [
+    features: [
       {
         title: "Easy Booking Process",
         features: [
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     imageUrl: 'https://images.unsplash.com/photo-1667372393086-9d4001d51cf1?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     category: 'web',
     githubUrl: 'https://github.com/artichaudhary0/Project-Pathway-Js',
-     features : [
+    features: [
       {
         title: "Project Overview",
         features: [
@@ -150,7 +150,7 @@ export const projects: Project[] = [
       },
     ],
   },
-  
+
   {
     id: '3',
     title: 'Digital Card Application',
@@ -159,7 +159,7 @@ export const projects: Project[] = [
     imageUrl: 'https://plus.unsplash.com/premium_photo-1729036163578-f80877183448?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     category: 'android',
     githubUrl: 'https://github.com/artichaudhary0/DigitalCardApplication',
-    features : [
+    features: [
       {
         title: "Application Overview",
         features: [
@@ -216,9 +216,9 @@ export const projects: Project[] = [
         ]
       },
     ]
-    
+
   },
- 
+
   {
     id: '4',
     title: 'JavaScript : Comprehensive Learning and Practical Implementation',
@@ -227,7 +227,7 @@ export const projects: Project[] = [
     imageUrl: 'https://plus.unsplash.com/premium_photo-1675793715030-0584c8ec4a13?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     category: 'web',
     githubUrl: 'https://github.com/artichaudhary0/Js-Code',
-     features : [
+    features: [
       {
         title: "Week 1: Introduction to JavaScript",
         features: [
@@ -373,44 +373,51 @@ export const projects: Project[] = [
     imageUrl: 'https://images.unsplash.com/photo-1643488072086-9d7318c0a04b?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     category: 'flutter',
     githubUrl: 'https://github.com/artichaudhary0/Crypto-Currency-Tracking-App',
-    
-       features: [
-        {
-          title: "Track Your Favorite Cryptocurrencies",
-          features: ["Easily track and monitor the real-time prices of your favorite cryptocurrencies. Whether it’s Bitcoin, Ethereum, or a lesser-known altcoin, this feature allows you to add your selected cryptocurrencies to a personalized list for quick access.",
-           "Save time by focusing on the cryptocurrencies that matter most to you. No need to search for the same currencies repeatedly, keeping your focus on the markets you're interested in."
-        ] },
-        {
-          title: "Real-time Data",
-          features:[ "This feature fetches the latest market data for all cryptocurrencies at any given moment. Real-time updates include data on price changes, market capitalization, trading volume, and percentage change in the last 24 hours.",
-           "Stay ahead of market trends with up-to-the-minute data. Perfect for active traders or crypto enthusiasts who want to monitor fluctuations in the crypto market as they happen."
-        ] },
-        {
-          title: "User-friendly Interface",
-          features : ["The app provides an intuitive, easy-to-navigate interface that ensures users of all levels can interact with it effortlessly. From displaying cryptocurrency data to searching for coins, everything is designed for a seamless experience.",
+
+    features: [
+      {
+        title: "Track Your Favorite Cryptocurrencies",
+        features: ["Easily track and monitor the real-time prices of your favorite cryptocurrencies. Whether it’s Bitcoin, Ethereum, or a lesser-known altcoin, this feature allows you to add your selected cryptocurrencies to a personalized list for quick access.",
+          "Save time by focusing on the cryptocurrencies that matter most to you. No need to search for the same currencies repeatedly, keeping your focus on the markets you're interested in."
+        ]
+      },
+      {
+        title: "Real-time Data",
+        features: ["This feature fetches the latest market data for all cryptocurrencies at any given moment. Real-time updates include data on price changes, market capitalization, trading volume, and percentage change in the last 24 hours.",
+          "Stay ahead of market trends with up-to-the-minute data. Perfect for active traders or crypto enthusiasts who want to monitor fluctuations in the crypto market as they happen."
+        ]
+      },
+      {
+        title: "User-friendly Interface",
+        features: ["The app provides an intuitive, easy-to-navigate interface that ensures users of all levels can interact with it effortlessly. From displaying cryptocurrency data to searching for coins, everything is designed for a seamless experience.",
           "A simple design makes it accessible to both beginners and advanced users. No need for complex navigation, reducing friction when accessing real-time market data."
-        ] },
-        {
-          title: "Search Cryptocurrencies",
-          features:[ "Search for cryptocurrencies by their name, ticker symbol, or market position. This feature allows users to easily find and access data for over 1,000 different cryptocurrencies from Bitcoin to the latest altcoins.",
-           "Quickly access any cryptocurrency you wish to track, without sifting through a list. The search functionality ensures you can find any crypto instantly, saving valuable time."
-       ] },
-        {
-          title: "Price Alerts",
-          features:[ "Set personalized alerts for specific cryptocurrencies. Users can configure price thresholds for their selected coins, and receive notifications via in-app alerts or push notifications when the price crosses the set value.",
-           "Be notified of significant market movements without needing to constantly check the app. This is particularly useful for traders who want to act quickly when a price hits a critical level."
-        ] },
-       
-        {
-          title: "Historical Data",
-          features:[ "Access detailed historical data for any cryptocurrency over various timeframes. Users can explore past price changes, historical highs and lows, and other essential data points to analyze trends and market behavior over time.",
-           "Having historical data allows users to conduct technical analysis, identify long-term trends, and make informed decisions based on past performance. It is essential for users planning their crypto investments over longer periods."
-        ] },
-        {
-          title: "Favorites List",
-          features:[ "Create a personalized list of cryptocurrencies that you want to track. Users can add or remove cryptocurrencies from the favorites list to maintain a quick-access collection of their most important coins.",
-           "This feature helps organize the user experience by grouping their preferred coins in one easy-to-find list. Whether it's for quick monitoring or portfolio management, users get quick access to their important assets."
-         ]  }
+        ]
+      },
+      {
+        title: "Search Cryptocurrencies",
+        features: ["Search for cryptocurrencies by their name, ticker symbol, or market position. This feature allows users to easily find and access data for over 1,000 different cryptocurrencies from Bitcoin to the latest altcoins.",
+          "Quickly access any cryptocurrency you wish to track, without sifting through a list. The search functionality ensures you can find any crypto instantly, saving valuable time."
+        ]
+      },
+      {
+        title: "Price Alerts",
+        features: ["Set personalized alerts for specific cryptocurrencies. Users can configure price thresholds for their selected coins, and receive notifications via in-app alerts or push notifications when the price crosses the set value.",
+          "Be notified of significant market movements without needing to constantly check the app. This is particularly useful for traders who want to act quickly when a price hits a critical level."
+        ]
+      },
+
+      {
+        title: "Historical Data",
+        features: ["Access detailed historical data for any cryptocurrency over various timeframes. Users can explore past price changes, historical highs and lows, and other essential data points to analyze trends and market behavior over time.",
+          "Having historical data allows users to conduct technical analysis, identify long-term trends, and make informed decisions based on past performance. It is essential for users planning their crypto investments over longer periods."
+        ]
+      },
+      {
+        title: "Favorites List",
+        features: ["Create a personalized list of cryptocurrencies that you want to track. Users can add or remove cryptocurrencies from the favorites list to maintain a quick-access collection of their most important coins.",
+          "This feature helps organize the user experience by grouping their preferred coins in one easy-to-find list. Whether it's for quick monitoring or portfolio management, users get quick access to their important assets."
+        ]
+      }
     ],
   },
 
@@ -420,49 +427,49 @@ export const projects: Project[] = [
     description: 'The Master Calculator Android App is a versatile and user-friendly mobile application designed to provide a comprehensive set of essential calculators and tools to assist users with various financial, educational, and mathematical calculations.',
     technologies: ['Kotlin', 'Java', 'State Management'],
     imageUrl: 'https://plus.unsplash.com/premium_photo-1677822252733-1e1aa38e90df?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    category: 'android', 
+    category: 'android',
     githubUrl: 'https://github.com/artichaudhary0/MasterCalculatorAndroid',
-   features: [
-        {
-          title: "Multiple Calculators in One App",
-          features: [
-            "Single app to access all essential calculators, improving user convenience.",
-            "Easy-to-navigate home screen with quick access to various calculators.",
-            "No need for multiple downloads for different calculator purposes."
-          ],
-        },
-        {
-          title: "Form and Data Validation",
-          features: [
-            "Prevents incorrect data entry, ensuring calculations are based on accurate inputs.",
-            "Guides users by showing error messages when invalid data is entered.",
-            "Helps prevent common mistakes like entering a negative amount or missing required fields."
-          ],
-        },
-        {
-          title: "User-Friendly Interface",
-          features: [
-            "Attractive and intuitive interface that reduces learning time.",
-            "Clear layout and navigation make the app accessible to users of all ages.",
-            "A well-organized design that minimizes the need for instructions."
-          ],
-         },
-        {
-          title: "Finance-Specific Calculators",
-           features: [
-            "Provides tools for critical financial tasks, making it easier to plan and manage finances.",
-            "Helps users make informed decisions regarding loans, investments, and expenses.",
-            "Customizable input fields to fit different financial scenarios."
-          ],
-        },
-        {
-          title: "Comprehensive Tools for Academic and Financial Management",
-          features: [
-            "Supports students and educators by providing tools for academic performance tracking.",
-            "Helps students calculate their grades and better understand their performance.",
-            "Useful for a range of educational purposes, from school projects to personal learning."
-          ],
-        }
+    features: [
+      {
+        title: "Multiple Calculators in One App",
+        features: [
+          "Single app to access all essential calculators, improving user convenience.",
+          "Easy-to-navigate home screen with quick access to various calculators.",
+          "No need for multiple downloads for different calculator purposes."
+        ],
+      },
+      {
+        title: "Form and Data Validation",
+        features: [
+          "Prevents incorrect data entry, ensuring calculations are based on accurate inputs.",
+          "Guides users by showing error messages when invalid data is entered.",
+          "Helps prevent common mistakes like entering a negative amount or missing required fields."
+        ],
+      },
+      {
+        title: "User-Friendly Interface",
+        features: [
+          "Attractive and intuitive interface that reduces learning time.",
+          "Clear layout and navigation make the app accessible to users of all ages.",
+          "A well-organized design that minimizes the need for instructions."
+        ],
+      },
+      {
+        title: "Finance-Specific Calculators",
+        features: [
+          "Provides tools for critical financial tasks, making it easier to plan and manage finances.",
+          "Helps users make informed decisions regarding loans, investments, and expenses.",
+          "Customizable input fields to fit different financial scenarios."
+        ],
+      },
+      {
+        title: "Comprehensive Tools for Academic and Financial Management",
+        features: [
+          "Supports students and educators by providing tools for academic performance tracking.",
+          "Helps students calculate their grades and better understand their performance.",
+          "Useful for a range of educational purposes, from school projects to personal learning."
+        ],
+      }
     ]
   },
 ];

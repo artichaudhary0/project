@@ -1,4 +1,3 @@
-import React from 'react';
 import { Theme } from '../../types/theme';
 
 interface SkillProgressProps {
@@ -8,10 +7,12 @@ interface SkillProgressProps {
 
 export default function SkillProgress({ level, theme }: SkillProgressProps) {
   return (
-    <div className="skill-progress-container bg-slate-700/50">
-      <div 
+    <div className="skill-progress-container bg-slate-700/50 w-full h-3 rounded-lg overflow-hidden">
+      <div
         className={`skill-progress-inner bg-gradient-to-r ${theme.colors.primary}`}
-        style={{ '--progress-width': `${level}%` } as React.CSSProperties}
+        style={{
+          width: `${level}%`,
+        }}
       />
     </div>
   );
