@@ -2,39 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Ensure the body or a container has overflow-y set to auto */
 body {
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: auto;   /* Allow vertical scrolling */
+  height: 100vh;      /* Ensure the body takes full height */
+  margin: 0;          /* Remove default margin */
 }
 
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-.container::-webkit-scrollbar {
+body::-webkit-scrollbar {
   display: none;
 }
 
-/* Firefox */
-.container {
-  scrollbar-width: none; /* hides the scrollbar in Firefox */
+body {
+  scrollbar-width: none; 
 }
 
 
-.container {
-  overflow: scroll; /* allows scrolling */
-}
-
-/* Hide the scrollbar but keep scrolling */
-.container::-webkit-scrollbar {
-  display: none; /* hides the scrollbar */
-}
-/* Enhanced Animations */
 @keyframes float-1 {
   0%, 100% { transform: translateY(0) rotate(0deg); }
   50% { transform: translateY(-10px) rotate(5deg); }
