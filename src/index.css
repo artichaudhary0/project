@@ -16,6 +16,27 @@ html, body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+.container {
+  scrollbar-width: none; /* hides the scrollbar in Firefox */
+}
+
+html, body {
+  overflow: hidden; /* hides the scrollbars */
+}
+
+.container {
+  overflow: scroll; /* allows scrolling */
+}
+
+/* Hide the scrollbar but keep scrolling */
+.container::-webkit-scrollbar {
+  display: none; /* hides the scrollbar */
+}
 /* Enhanced Animations */
 @keyframes float-1 {
   0%, 100% { transform: translateY(0) rotate(0deg); }
