@@ -9,7 +9,36 @@ export const projects: Project[] = [
     technologies: ['Flutter', 'Dart', 'Firebase', 'Provider','Figma'],
     imageUrl: 'https://images.unsplash.com/photo-1546552696-7d5f4e89b0e8?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     category: 'flutter',
-    githubUrl: 'https://github.com/artichaudhary0/wear_work'
+    githubUrl: 'https://github.com/artichaudhary0/wear_work',
+    features: [
+      {
+        title: 'Shopping Experience',
+        features: [
+          'Real-time product inventory updates',
+          'Advanced search and filtering',
+          'Personalized recommendations',
+          'Wishlist management'
+        ]
+      },
+      {
+        title: 'Payment & Security',
+        features: [
+          'Multiple payment methods integration',
+          'Secure payment processing',
+          'Order tracking system',
+          'Purchase history'
+        ]
+      },
+      {
+        title: 'User Features',
+        features: [
+          'User profile customization',
+          'Address management',
+          'Push notifications',
+          'Order reviews and ratings'
+        ]
+      }
+    ]
   },
 
   {
@@ -19,7 +48,37 @@ export const projects: Project[] = [
     technologies: ['Html', 'Css', 'Javascript'],
     imageUrl: 'https://images.unsplash.com/photo-1667372393086-9d4001d51cf1?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     category: 'web',
-    githubUrl: 'https://github.com/artichaudhary0/Project-Pathway-Js'
+    githubUrl: 'https://github.com/artichaudhary0/Project-Pathway-Js',
+    features: [
+      {
+        title: 'Shopping Experience',
+        features: [
+          'Real-time product inventory updates',
+          'Advanced search and filtering',
+          'Personalized recommendations',
+          'Wishlist management'
+        ]
+      },
+      {
+        title: 'Payment & Security',
+        features: [
+          'Multiple payment methods integration',
+          'Secure payment processing',
+          'Order tracking system',
+          'Purchase history'
+        ]
+      },
+      {
+        title: 'User Features',
+        features: [
+          'User profile customization',
+          'Address management',
+          'Push notifications',
+          'Order reviews and ratings'
+        ]
+      }
+    ]
+
   },
   
   {
@@ -29,7 +88,36 @@ export const projects: Project[] = [
     technologies: ['Java', 'Glide', 'Piccaso'],
     imageUrl: 'https://plus.unsplash.com/premium_photo-1729036163578-f80877183448?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     category: 'android',
-    githubUrl: 'https://github.com/artichaudhary0/DigitalCardApplication'
+    githubUrl: 'https://github.com/artichaudhary0/DigitalCardApplication',
+    features: [
+      {
+        title: 'Shopping Experience',
+        features: [
+          'Real-time product inventory updates',
+          'Advanced search and filtering',
+          'Personalized recommendations',
+          'Wishlist management'
+        ]
+      },
+      {
+        title: 'Payment & Security',
+        features: [
+          'Multiple payment methods integration',
+          'Secure payment processing',
+          'Order tracking system',
+          'Purchase history'
+        ]
+      },
+      {
+        title: 'User Features',
+        features: [
+          'User profile customization',
+          'Address management',
+          'Push notifications',
+          'Order reviews and ratings'
+        ]
+      }
+    ]
   },
  
   {
@@ -39,7 +127,36 @@ export const projects: Project[] = [
     technologies: ['Html', 'Css', 'Javascript'],
     imageUrl: 'https://plus.unsplash.com/premium_photo-1675793715030-0584c8ec4a13?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     category: 'web',
-    githubUrl: 'https://github.com/artichaudhary0/Js-Code'
+    githubUrl: 'https://github.com/artichaudhary0/Js-Code',
+    features: [
+      {
+        title: 'hvkvkj',
+        features: [
+          'Real-time product inventory updates',
+          'Advanced search and filtering',
+          'Personalized recommendations',
+          'Wishlist management'
+        ]
+      },
+      {
+        title: 'Payment & Security',
+        features: [
+          'Multiple payment methods integration',
+          'Secure payment processing',
+          'Order tracking system',
+          'Purchase history'
+        ]
+      },
+      {
+        title: 'User Features',
+        features: [
+          'User profile customization',
+          'Address management',
+          'Push notifications',
+          'Order reviews and ratings'
+        ]
+      }
+    ]
   },
   {
     id: '5',
@@ -48,7 +165,36 @@ export const projects: Project[] = [
     technologies: ['Flutter', 'Povider', 'Shared Preferences'],
     imageUrl: 'https://images.unsplash.com/photo-1643488072086-9d7318c0a04b?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     category: 'flutter',
-    githubUrl: 'https://github.com/artichaudhary0/Crypto-Currency-Tracking-App'
+    githubUrl: 'https://github.com/artichaudhary0/Crypto-Currency-Tracking-App',
+    features: [
+      {
+        title: 'Shopping Experience',
+        features: [
+          'Real-time product inventory updates',
+          'Advanced search and filtering',
+          'Personalized recommendations',
+          'Wishlist management'
+        ]
+      },
+      {
+        title: 'Payment & Security',
+        features: [
+          'Multiple payment methods integration',
+          'Secure payment processing',
+          'Order tracking system',
+          'Purchase history'
+        ]
+      },
+      {
+        title: 'User Features',
+        features: [
+          'User profile customization',
+          'Address management',
+          'Push notifications',
+          'Order reviews and ratings'
+        ]
+      }
+    ]
   },
   {
     id: '6',
@@ -57,7 +203,36 @@ export const projects: Project[] = [
     technologies: ['Kotlin', 'Java', 'State Management'],
     imageUrl: 'https://plus.unsplash.com/premium_photo-1677822252733-1e1aa38e90df?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     category: 'android', 
-    githubUrl: 'https://github.com/artichaudhary0/MasterCalculatorAndroid'
+    githubUrl: 'https://github.com/artichaudhary0/MasterCalculatorAndroid',
+    features: [
+      {
+        title: 'Shopping Experience',
+        features: [
+          'Real-time product inventory updates',
+          'Advanced search and filtering',
+          'Personalized recommendations',
+          'Wishlist management'
+        ]
+      },
+      {
+        title: 'Payment & Security',
+        features: [
+          'Multiple payment methods integration',
+          'Secure payment processing',
+          'Order tracking system',
+          'Purchase history'
+        ]
+      },
+      {
+        title: 'User Features',
+        features: [
+          'User profile customization',
+          'Address management',
+          'Push notifications',
+          'Order reviews and ratings'
+        ]
+      }
+    ]
   },
 ];
 

@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import { type Project } from '../types/portfolio';
 import { ExternalLink, Github } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
@@ -8,9 +9,13 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps) {
   const { currentTheme } = useTheme();
+  const navigate = useNavigate();
 
   return (
-    <div className="animate-slide-in group bg-slate-800/50 backdrop-blur-lg rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-500 hover:shadow-2xl border border-slate-700/50">
+    <div 
+      className="animate-slide-in group bg-slate-800/50 backdrop-blur-lg rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-500 hover:shadow-2xl border border-slate-700/50 cursor-pointer"
+      onClick={() => navigate(`/project/${project.id}`)}
+    >
       <div className="relative overflow-hidden">
         <img 
           src={project.imageUrl} 
@@ -24,7 +29,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           <h3 className={`text-xl font-bold text-slate-100 group-hover:text-${currentTheme.colors.accent} transition-colors duration-300 text-shadow`}>
             {project.title}
           </h3>
-          <div className="flex space-x-2">
+          <div className="flex space-x-2" onClick={(e) => e.stopPropagation()}>
             {project.projectUrl && (
               <a 
                 href={project.projectUrl} 
@@ -35,16 +40,12 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                 <ExternalLink className="h-5 w-5" />
               </a>
             )}
-            {project.githubUrl && (
-              <a 
-                href={project.githubUrl} 
-                className="text-slate-300 hover:text-white transition-colors duration-300"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Github className="h-5 w-5" />
-              </a>
-            )}
+            <a 
+              href="#" 
+              className="text-slate-300 hover:text-white transition-colors duration-300"
+            >
+              <Github className="h-5 w-5" />
+            </a>
           </div>
         </div>
         <p className="text-slate-300 mb-4">{project.description}</p>

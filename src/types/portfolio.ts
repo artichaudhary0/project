@@ -1,3 +1,4 @@
+
 export interface Project {
   id: string;
   title: string;
@@ -7,7 +8,14 @@ export interface Project {
   projectUrl?: string;
   githubUrl?: string;
   category: 'android' | 'flutter' | 'web';
+  features: ProjectFeature[];
 }
+
+export interface ProjectFeature {
+  title: string;
+  features: string[];
+}
+
 
 export interface Skill {
   name: string;

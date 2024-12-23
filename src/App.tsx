@@ -1,35 +1,19 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import ThemeSwitcher from './components/ThemeSwitcher';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
-import { useTheme } from './context/ThemeContext';
-
-function AppContent() {
-  const { currentTheme } = useTheme();
-  
-  return (
-    <div className={`min-h-screen bg-${currentTheme.colors.background}`}>
-      <Header />
-      <Hero />
-      <Projects />
-      <Skills />
-      <Experience />
-      <Contact />
-      <Footer />
-      <ThemeSwitcher />
-    </div>
-  );
-}
+import MainLayout from './components/layouts/MainLayout';
+import ProjectLayout from './components/layouts/ProjectLayout';
+import HomePage from './pages/HomePage';
+import ProjectDetails from './pages/ProjectDetails';
 
 function App() {
   return (
     <ThemeProvider>
-      <AppContent />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MainLayout><HomePage /></MainLayout>} />
+          <Route path="/project/:id" element={<ProjectLayout><ProjectDetails /></ProjectLayout>} />
+        </Routes>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
