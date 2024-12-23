@@ -2,11 +2,11 @@ import { Theme } from '../types/theme';
 
 export const themes: Theme[] = [
   {
-    name: 'Midnight Galaxy',
+    name: 'Dark Matter',
     colors: {
-      primary: 'from-violet-900 via-indigo-800 to-purple-900',
-      secondary: 'violet-700',
-      accent: 'indigo-600',
+      primary: 'from-zinc-900 via-slate-800 to-gray-900',
+      secondary: 'zinc-700',
+      accent: 'slate-600',
       background: 'slate-900',
       text: 'slate-100'
     }
@@ -41,14 +41,15 @@ export const themes: Theme[] = [
       text: 'slate-100'
     }
   },
+
   {
-    name: 'Dark Matter',
+    name: 'Midnight Galaxy',
     colors: {
-      primary: 'from-zinc-900 via-slate-800 to-gray-900',
-      secondary: 'zinc-700',
-      accent: 'slate-600',
+      primary: 'from-violet-900 via-indigo-800 to-purple-900',
+      secondary: 'violet-700',
+      accent: 'indigo-600',
       background: 'slate-900',
       text: 'slate-100'
     }
-  }
+  },
 ];
