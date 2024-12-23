@@ -25,9 +25,6 @@ html, body {
   scrollbar-width: none; /* hides the scrollbar in Firefox */
 }
 
-html, body {
-  overflow: hidden; /* hides the scrollbars */
-}
 
 .container {
   overflow: scroll; /* allows scrolling */
