@@ -2,20 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Ensure the body or a container has overflow-y set to auto */
-body {
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  overflow-y: auto;   /* Allow vertical scrolling */
-  height: 100vh;      /* Ensure the body takes full height */
-  margin: 0;          /* Remove default margin */
-}
+
 
 body::-webkit-scrollbar {
   display: none;
-}
-
-body {
-  scrollbar-width: none; 
 }
 
 
